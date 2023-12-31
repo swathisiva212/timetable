@@ -15,18 +15,17 @@ Execute the program
 
 # CODE
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Slot Timetable</title>
+<title>SEC Timetable</title>
 </head>
+<img src="logo.png">
 <body>
-<center>
-<img src="logo.png" height="100" width="540">
-</center>
-<br>
-<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
-<caption><b>SLOT TIME TABLE - Surendhar.K (22008841)</b></caption>
-<tr align="center">
+<table border="5" width="600">
+<tr>
+Preview Code Blame Raw
+29/12/2023, 08:56 timetable/README.md at main · NITHIYANERANJAN/timetable
+https://github.com/NITHIYANERANJAN/timetable/blob/main/timetable.png 2/4
 <th bgcolor="yellow">Day/Time</th>
 <th bgcolor="yellow">Monday</th>
 <th bgcolor="yellow">Tuesday</th>
@@ -34,74 +33,81 @@ Execute the program
 <th bgcolor="yellow">Thursday</th>
 <th bgcolor="yellow">Friday</th>
 </tr>
-<tr align="center">
+<tr>
 <th bgcolor="yellow">8-10</th>
-<td colspan="3" align="center">FREE SLOT</td>
-<td>PHY</td>
-<td>CHE</td>
+<th colspan="3" align="center" bgcolor="cyan">FREE
+SLOT</th>
+<th bgcolor="cyan">PHY</th>
+<th bgcolor="cyan">CHE</th>
 </tr>
-<tr align="center">
+<tr>
 <th bgcolor="yellow">10-12</th>
-<td>GER</td>
-<td> FREE SLOT </td>
-<td>FWAD</td>
-<td>FWAD</td>
-<td>PHY</td>
+<th bgcolor="cyan">GER</th>
+<th bgcolor="cyan">FREE SLOT</th>
+<th bgcolor="cyan">FWAD</th>
+<th bgcolor="cyan">FWAD</th>
+<th bgcolor="cyan">PHY</th>
 </tr>
 <tr>
 <th bgcolor="yellow">12-1</th>
-<td colspan="5" align="center">L U N C H</td>
+<th colspan="5" align="center" bgcolor="cyan">LUNCH</th>
 </tr>
-<tr align="center">
+<tr>
 <th bgcolor="yellow">1-3</th>
-<td colspan="2" align="center">FREE SLOT</td>
-<td>MAT</td>
-<td>MAT</td>
-<td>SS</td>
+<td colspan="2" align="center" bgcolor="cyan">FREE
+SLOT</th>
+<th bgcolor="cyan">MAT</th>
+<th bgcolor="cyan">MAT</th>
+<th bgcolor="cyan">SS</th>
 </tr>
-<tr align="center">
+<tr>
 <th bgcolor="yellow">3-5</th>
-<td colspan="2" align="center">FREE SLOT</td>
-<td>GER</td>
-<td>CHE</td>
-<td>FWAD</td>
+<th colspan="2" align="center" bgcolor="cyan">FREE
+SLOT</th>
+<th bgcolor="cyan">GER</th>
+<th bgcolor="cyan">CHE</th>
+<th bgcolor="cyan">FWAD</th>
 </tr>
 </table>
 <br>
-<table align="center" cellspacing="2" cellpadding="4" border="2">
-<tr align="center">
-<th>S. No.</th>
-<th>Subject Code</th>
-<th>Subject Name</th>
+<table border="3" width="600">
+<tr>
+<td>S.NO.</td>
+<td>Subject Code</td>
+<td>Subject Name</td>
 </tr>
 <tr>
-<td align="center">1.</td>
-<td align="center">19AI414</td>
-<td>Fundamentals of Web Application Development (FWAD)</td>
+<td>1.</td>
+<td>19AI414</td>
+<td>Fundamentals of Web Application Developement (FWAD)
+29/12/2023, 08:56 timetable/README.md at main · NITHIYANERANJAN/timetable
+https://github.com/NITHIYANERANJAN/timetable/blob/main/timetable.png 3/4
+OUPUT
+</td>
 </tr>
 <tr>
-<td align="center">2.</td>
-<td align="center">19EN612</td>
+<td>2.</td>
+<td>19EN612</td>
 <td>German Basic (GER)</td>
 </tr>
 <tr>
-<td align="center">3.</td>
-<td align="center">19PH206</td>
+<td>3.</td>
+<td>19PH206</td>
 <td>Physics for Information Technology (PHY)</td>
 </tr>
 <tr>
-<td align="center">4.</td>
-<td align="center">19CY205</td>
+<td>4.</td>
+<td>19CY205</td>
 <td>Principles of Chemistry in Engineering (CHE)</td>
 </tr>
 <tr>
-<td align="center">5.</td>
-<td align="center">19MA201</td>
+<td>5.</td>
+<td>19MA201</td>
 <td>Calculus and Matrix Algebra (MAT)</td>
 </tr>
 <tr>
-<td align="center">6.</td>
-<td align="center">19EY701</td>
+<td>6.</td>
+<td>19EY701</td>
 <td>Soft Skills (SS)</td>
 </tr>
 </table>
